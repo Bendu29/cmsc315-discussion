@@ -1,58 +1,166 @@
-# CMSC 315 – Data Structures and Analysis
+# \# Unit 2 Discussion: Stacks and Queues
 
-## Unit 1 Discussion: Python OOP, Namespaces, and Copying
+# 
 
-### Student
-Bendu Konah
+# Author: Bendu Konah
 
-### Project Description
-For this assignment, I created a simple IT Support Device
-Management System using Python.
+# 
 
-The program demonstrates object-oriented programming,
-inheritance, namespaces, shallow copying, and deep copying.
+# \## Overview
 
-### Program Features
+# 
 
-1. Parent Class
-   - Stores device name and location.
-   - Includes a method to display device information.
+# I implemented a stack and a queue in Python using a custom
 
-2. Child Class
-   - Inherits information from the parent class.
-   - Stores operating system and memory information.
-   - Includes a method to add software.
+# printing business scenario. The stack tracked print-design
 
-3. Namespaces
-   - Demonstrates class and instance variables.
-   - Shows how objects can have different attributes.
+# changes, while the queue managed incoming customer orders.
 
-4. Shallow and Deep Copying
-   - Creates shallow and deep copies of an object.
-   - Shows how changes affect the original and copies.
+# 
 
-5. Student Extension
-   - Adds new software to a computer.
-   - Displays updated computer information.
+# \## Implementation
 
-### How to Run the Program
+# 
 
-1. Download the Python file.
-2. Open the file in Visual Studio or another Python editor.
-3. Make sure Python is installed.
-4. Run the following command:
+# I used a Python list for the stack. The push method added
 
-python unit1_discussion.py
+# an action to the end, and pop removed the most recent action.
 
-### What I Learned
+# The peek method previewed the latest action without removing it.
 
-This assignment helped me understand how Python classes
-and objects work. I learned how inheritance allows a child
-class to reuse code from a parent class.
+# These operations demonstrated last-in, first-out (LIFO) behavior.
 
-I also learned the difference between shallow and deep
-copying and how namespaces store object information.
+# 
 
-The assignment helped me improve my Python programming
-skills and understand how object-oriented programming
-makes code easier to organize and reuse.
+# I used collections.deque for the queue. The enqueue method
+
+# added an order to the back, and dequeue removed the oldest
+
+# order from the front using popleft(). The front method
+
+# previewed the next order without removing it. These operations
+
+# demonstrated first-in, first-out (FIFO) behavior.
+
+# 
+
+# I kept the TODO prompts and added comments explaining the logic.
+
+# 
+
+# \## Real-World Applications
+
+# 
+
+# The stack demonstrated undoing changes to a customer's print
+
+# design. The most recent change was undone first.
+
+# 
+
+# The queue demonstrated processing T-shirt, mug, tumbler, and
+
+# pillow orders in the order they were received.
+
+# 
+
+# \## Testing and Results
+
+# 
+
+# I ran the program and verified that all demonstration checks
+
+# passed. I tested:
+
+# 
+
+# \- LIFO and FIFO removal order with four items each.
+
+# \- Preview operations that did not remove items.
+
+# \- Removal and preview operations on empty structures.
+
+# \- Single-item structures becoming empty after removal.
+
+# \- Repeated values.
+
+# \- Additions mixed with removals.
+
+# 
+
+# Empty operations raised IndexError exceptions with clear
+
+# messages. The demonstration caught those exceptions and
+
+# continued running.
+
+# 
+
+# The program ended with:
+
+# All demonstration checks passed.
+
+# 
+
+# \## Memory and Efficiency
+
+# 
+
+# Both structures used O(n) storage for n stored references.
+
+# The stored objects also required memory, depending on their
+
+# size. Memory requirements increased as more items were added.
+
+# 
+
+# Stack push and pop took amortized O(1) time. Queue enqueue
+
+# and dequeue took O(1) time. Using popleft() avoided shifting
+
+# the remaining queue items.
+
+# 
+
+# \## Reflection
+
+# 
+
+# I learned how insertion and removal positions determined
+
+# whether a structure followed LIFO or FIFO order. Connecting
+
+# these operations to printing orders and design changes helped
+
+# me understand their practical uses.
+
+# 
+
+# One challenge was running the file from the terminal.
+
+# The terminal initially looked in the wrong location.
+
+# I resolved this by saving the file and running it with its
+
+# correct path.
+
+# 
+
+# I also learned why empty structures needed explicit handling.
+
+# Clear exceptions explained invalid operations, while exception
+
+# handling allowed the demonstration to continue.
+
+# 
+
+# \## Execution
+
+# 
+
+# I ran the program with Python 3 using:
+
+# 
+
+# python unit2\_discussion.py
+
