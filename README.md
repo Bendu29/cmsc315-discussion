@@ -1,23 +1,25 @@
-# Unit 3 Discussion: List Operations
+# Unit 4 Discussion: Binary Search Trees
 
 ## Overview
 
-This assignment examines insertion, deletion, and searching in Python lists.
+This assignment introduces Binary Search Trees (BSTs) and recursive tree operations.
 
 ## Learning Objectives
 
-- Insert values into a list
-- Delete values from a list
-- Search for values in a list
-- Analyze list behavior and performance
+* Build a BST
+* Insert values recursively
+* Search recursively
+* Perform in-order traversal
+* Understand BST organization
 
 ## Requirements
 
-1. Test insertion at the beginning, middle, and end.
-2. Test deletion at the beginning, middle, and end.
-3. Search for existing and missing values.
-4. Demonstrate edge cases.
-5. Create a real-world scenario.
+1. Build a BST.
+2. Insert multiple values.
+3. Demonstrate in-order traversal.
+4. Test searching.
+5. Demonstrate edge cases.
+6. Create a real-world BST example.
 
 ## Discussion Board Reflection
 
@@ -27,4 +29,5 @@ Your reflection should be approximately 150–200 words and address the followin
 
 1. What concepts or skills did you learn while completing this assignment?
 2. What challenges did you encounter, and how did you overcome them?
-3. How do list operations impact performance in real-world applications?
+3. Explain BST behavior and compare to how ordering works to create efficiency as compared to other data structures.
+
