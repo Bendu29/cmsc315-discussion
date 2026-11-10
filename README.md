@@ -29,3 +29,16 @@ Your reflection should be approximately 150–200 words and address the followin
 1. What concepts or skills did you learn while completing this assignment?
 2. What challenges did you encounter, and how did you overcome them?
 3. Explain when to use linear versus binary search, including tradeoffs in real-world scenarios.
+
+
+Running the Program
+
+Run python unit5_discussion.py from the folder containing the script.
+
+Results
+
+Both searches found 17 at index 2 in the small dataset and returned -1 for the missing value 20. In the 50,000-item dataset, searching for the missing value 50000 required linear search to check all 50,000 elements. Binary search checked 16. Both searches returned -1 for an empty list and 0 for a match in a single-element list.
+
+Real World Example
+
+A store could use these methods to look up an inventory item by product ID. Linear search works for a short, unsorted list of newly received items. Binary search is better suited to repeated lookups in a large inventory list sorted by product ID.
