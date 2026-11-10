@@ -1,23 +1,31 @@
-# Unit 4 Discussion: Binary Search Trees
+# Unit 5 Discussion: Search Algorithms
 
 ## Overview
 
-This assignment introduces Binary Search Trees (BSTs) and recursive tree operations.
+This assignment compares linear search and binary search.
 
 ## Learning Objectives
 
-* Build a BST
-* Insert values recursively
-* Search recursively
-* Perform in-order traversal
-* Understand BST organization
+- Implement linear search
+- Implement binary search
+- Compare performance
+- Analyze algorithm efficiency
 
 ## Requirements
 
-1. Build a BST.
-2. Insert multiple values.
-3. Demonstrate in-order traversal.
-4. Test searching.
-5. Demonstrate edge cases.
-6. Create a real-world BST example.
+1. Test both algorithms on a small dataset.
+2. Test both algorithms on a large dataset.
+3. Demonstrate edge cases.
+4. Analyze performance.
+5. Create a real-world search scenario.
 
+
+## Discussion Board Reflection
+
+After completing the programming assignment, add this reflection to your initial discussion post in LEO.
+
+Your reflection should be approximately 150–200 words and address the following questions:
+
+1. What concepts or skills did you learn while completing this assignment?
+2. What challenges did you encounter, and how did you overcome them?
+3. Explain when to use linear versus binary search, including tradeoffs in real-world scenarios.
